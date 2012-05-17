@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<nlcp>
+		<local-defaults include-by-default="true"/>
+	</nlcp>
+	<remote name="wlan-github" fetch="git://github.com/TI-OpenLink/" push="ssh://github.com/TI-OpenLink/" />
+	<default remote="wlan-github" />
+
+	<project name="wl18xx" path="code/addon/wlan/wl18xx" revision="master"/>
+	<project name="compat" path="code/addon/wlan/compat" revision="wlcore" />
+	  <project name="compat-wireless" path="code/addon/wlan/compat-wireless" revision="wlcore" />
+</manifest>
