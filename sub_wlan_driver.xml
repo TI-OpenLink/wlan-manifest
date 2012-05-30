@@ -3,10 +3,10 @@
 	<nlcp>
 		<local-defaults include-by-default="true"/>
 	</nlcp>
-	<remote name="wlan-github" fetch="git://github.com/TI-OpenLink/" push="ssh://github.com/TI-OpenLink/" />
+	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
 	<default remote="wlan-github" />
 
-	<project name="wl18xx" path="code/addon/wlan/wl18xx" revision="master"/>
-	<project name="compat" path="code/addon/wlan/compat" revision="wlcore" />
-	  <project name="compat-wireless" path="code/addon/wlan/compat-wireless" revision="wlcore" />
+	<project name="TI-OpenLink/wl18xx" path="code/addon/wlan/wl18xx" revision="master"/>
+	<project name="TI-OpenLink/compat" path="code/addon/wlan/compat" revision="wlcore" />
+	  <project name="TI-OpenLink/compat-wireless" path="code/addon/wlan/compat-wireless" revision="wlcore" />
 </manifest>
