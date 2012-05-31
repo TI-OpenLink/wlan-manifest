@@ -5,15 +5,15 @@
 	</nlcp>
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
 	<remote name="wlan-gitorious" fetch="git://gitorious.tif.ti.com/ti-openlink-projects/" />
-	<default remote="wlan-github" />
+	<default remote="wlan-github" revision="refs/tags/r8.a2.05" />
 
-	<project name="TI-OpenLink/wl12xx_ko_installer" path="code/mydroid/external/wlcore_ko_installer" revision="fd30122fb86e6ad16b5295cef861d5aa2999a19f"/>
-	<project name="TI-OpenLink/wl12xx_target_scripts" path="code/mydroid/external/wlcore_target_scripts" revision="1036222ae31bcef732fa2a806ed8b61c2b52a718"/>
-	<project name="TI-OpenLink/hostap" path="code/mydroid/external/wpa_supplicant_8" revision="5e990c1678ef558ab325c899e0a2bd7acffb4b34"/>
-	<project name="TI-OpenLink/18xx-ti-utils" path="code/mydroid/external/ti-utils" revision="7d970221ac2a9dcfa44d40393885a9dd22e83d5b"/>
-	<project name="TI-OpenLink/wl18xx_fw" path="code/mydroid/external/wl18xx_fw" revision="5932ea228d0cc6012c0f0eaf0f4132cef14d0c75" />
-	<project name="TI-OpenLink/iw" path="code/mydroid/external/iw" revision="f39c909796134411a3785d2f777210ec4c841967"/>
-	<project name="wlan-patches" path="infrastructure/patches/wlan-patches" remote="wlan-gitorious" revision="d4fbaebe8fd742570a2defa62cf700b3dc12f003"/>
-	<project name="wlan-kernel" path="code/kernel" remote="wlan-gitorious" revision="7ff17f247d10410362c9956fb9c8c14e98ac0800"/>
-	<project name="wlan-device-ti-blaze" path="code/mydroid/device/ti/blaze" remote="wlan-gitorious" revision="19578928ec761695f571eefb12123d7ccd5dcb57"/>
+	<project name="TI-OpenLink/wl12xx_ko_installer" path="code/mydroid/external/wlcore_ko_installer" />
+	<project name="TI-OpenLink/wl12xx_target_scripts" path="code/mydroid/external/wlcore_target_scripts" />
+	<project name="TI-OpenLink/hostap" path="code/mydroid/external/wpa_supplicant_8" />
+	<project name="TI-OpenLink/18xx-ti-utils" path="code/mydroid/external/ti-utils" />
+	<project name="TI-OpenLink/wl18xx_fw" path="code/mydroid/external/wl18xx_fw" />
+	<project name="TI-OpenLink/iw" path="code/mydroid/external/iw" />
+	<project name="wlan-patches" path="infrastructure/patches/wlan-patches" remote="wlan-gitorious" />
+	<project name="wlan-kernel" path="code/kernel" remote="wlan-gitorious" />
+	<project name="wlan-device-ti-blaze" path="code/mydroid/device/ti/blaze" remote="wlan-gitorious" />
 </manifest>
