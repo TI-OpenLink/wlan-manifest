@@ -13,7 +13,7 @@
 	<project name="TI-OpenLink/18xx-ti-utils" path="code/mydroid/external/ti-utils" revision="wl18xx"/>
 	<project name="TI-OpenLink/wl18xx_fw" path="code/mydroid/external/wl18xx_fw" revision="master" />
 	<project name="TI-OpenLink/iw" path="code/mydroid/external/iw" revision="ics"/>
-	<project name="wlan-patches" path="infrastructure/patches/wlan-patches" remote="wlan-gitorious" revision="master"/>
+	<project name="wlan-patches" path="infrastructure/patches/wlan-patches" remote="wlan-gitorious" revision="r8.a2"/>
 	<project name="wlan-kernel" path="code/kernel" remote="wlan-gitorious" revision="master"/>
 	<project name="wlan-device-ti-blaze" path="code/mydroid/device/ti/blaze" remote="wlan-gitorious" revision="master"/>
 </manifest>
