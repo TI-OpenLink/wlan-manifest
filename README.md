@@ -1,0 +1,4 @@
+wlan-manifest
+=============
+
+OpenLink manifests
