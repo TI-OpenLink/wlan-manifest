@@ -7,8 +7,7 @@
 	<default remote="wlan-github" />
 
 	<project name="TI-OpenLink/wlan-patches" path="infrastructure/patches/wlan-patches" revision="r5-jb"/>
-<!--
-	<project name="wlan-kernel" path="code/kernel" revision="master"/>
-	<project name="wlan-device-ti-blaze" path="code/mydroid/device/ti/blaze" revision="master"/>
--->
+	<project name="TI-OpenLink/kernel-omap" path="code/kernel" revision="jb"/>
+	<project name="TI-OpenLink/device-ti-blaze" path="code/mydroid/device/ti/blaze" revision="jb"/>
+	<project name="TI-OpenLink/device-ti-tablet" path="code/mydroid/device/ti/blaze_tablet" revision="jb"/>
 </manifest>
