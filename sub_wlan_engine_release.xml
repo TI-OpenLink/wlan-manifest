@@ -4,7 +4,7 @@
 		<local-defaults include-by-default="true"/>
 	</nlcp>
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
-	<default remote="wlan-github" revision="refs/tags/" />
+	<default remote="wlan-github" revision="refs/tags/ol_R5.SP2.04" />
 
 	<project name="TI-OpenLink/wlan-patches" path="infrastructure/patches/wlan-patches"/>
 	<project name="TI-OpenLink/kernel-omap" path="code/kernel"/>
