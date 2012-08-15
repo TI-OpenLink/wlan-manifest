@@ -6,7 +6,7 @@
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
 	<default remote="wlan-github" />
 
-	<project name="TI-OpenLink/wl18xx" path="code/addon/wlan/wl12xx" revision="mc_internal"/>
+	<project name="TI-OpenLink/wl18xx" path="code/addon/wlan/wl18xx" revision="mc_internal"/>
 	<project name="TI-OpenLink/compat" path="code/addon/wlan/compat"  revision="internal" />
 	<project name="TI-OpenLink/compat-wireless" path="code/addon/wlan/compat-wireless"  revision="mc_internal" />
 </manifest>
