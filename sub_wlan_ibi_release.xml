@@ -4,7 +4,7 @@
 		<local-defaults include-by-default="true"/>
 	</nlcp>
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
-	<default remote="wlan-github" revision="refs/tags/ol_r8.a3.13-jb" />
+	<default remote="wlan-github" revision="refs/tags/ol_r8.a3.14" />
 
 	<project name="TI-OpenLink/wlan-patches-ibi" path="infrastructure/patches/wlan-patches-ibi" />
 </manifest>
