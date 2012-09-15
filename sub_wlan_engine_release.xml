@@ -4,10 +4,10 @@
 		<local-defaults include-by-default="true"/>
 	</nlcp>
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
-	<default remote="wlan-github" revision="refs/tags/ol_R5.SP2.04" />
+	<default remote="wlan-github" />
 
-	<project name="TI-OpenLink/wlan-patches" path="infrastructure/patches/wlan-patches"/>
-	<project name="TI-OpenLink/kernel-omap" path="code/kernel"/>
-	<project name="TI-OpenLink/device-ti-blaze" path="code/mydroid/device/ti/blaze"/>
-	<project name="TI-OpenLink/device-ti-tablet" path="code/mydroid/device/ti/blaze_tablet"/>
+	<project name="TI-OpenLink/wlan-patches" path="infrastructure/patches/wlan-patches" revision="refs/tags/R5.xx_Build-47"/>
+	<project name="TI-OpenLink/kernel-omap" path="code/kernel" revision="refs/tags/R5.xx_Build-47"/>
+	<project name="TI-OpenLink/device-ti-blaze" path="code/mydroid/device/ti/blaze" revision="refs/tags/R5.xx_Build-47"/>
+	<project name="TI-OpenLink/device-ti-tablet" path="code/mydroid/device/ti/blaze_tablet" revision="refs/tags/R5.xx_Build-47"/>
 </manifest>
