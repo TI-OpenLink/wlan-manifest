@@ -6,7 +6,7 @@
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
 	<default remote="wlan-github" />
 
-	<project name="TI-OpenLink/wl18xx" path="code/addon/wlan/wl18xx" revision="refs/tags/R8.xx_Build-9"/>
-	<project name="TI-OpenLink/compat" path="code/addon/wlan/compat"  revision="refs/tags/R8.xx_Build-9" />
-	<project name="TI-OpenLink/compat-wireless" path="code/addon/wlan/compat-wireless"  revision="refs/tags/R8.xx_Build-9" />
+	<project name="TI-OpenLink/wl18xx" path="code/addon/wlan/wl18xx" revision="refs/tags/R8.xx_Build-42"/>
+	<project name="TI-OpenLink/compat" path="code/addon/wlan/compat"  revision="refs/tags/R8.xx_Build-42" />
+	<project name="TI-OpenLink/compat-wireless" path="code/addon/wlan/compat-wireless"  revision="refs/tags/R8.xx_Build-42" />
 </manifest>
