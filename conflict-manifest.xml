@@ -11,7 +11,7 @@
 		<merge-sources>
 			<project name="device/ti/blaze" remote="bt-ext" revision="refs/tags/blueti-nlcp-1.2.3.7"/>
 			<project name="TI-OpenLink/device-ti-blaze" remote="wlan-github" revision="jb"/>
-			<project name="device/ti/blaze" remote="gnss-gerrit-internal" revision="refs/tags/REL_NL8.5.0.5"/>
+			<project name="device/ti/blaze" remote="gnss-gerrit-internal" revision="refs/tags/DEV_NL8.5.0.6"/>
 			<project name="device/ti/blaze" remote="fm-gerrit-external" revision="refs/tags/fm_1.0.5"/>
 			<project name="device/ti/blaze" remote="nfc-gerrit-external" revision="refs/tags/ti-nfc_jb-4.1.1_r1.65"/>
 		</merge-sources>
