@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<nlcp>
+		<local-defaults include-by-default="true"/>
+	</nlcp>
+	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
+	<default remote="wlan-github" />
+
+	<project name="TI-OpenLink/wl12xx" path="code/addon/wlan/wl12xx" revision="refs/tags/ol_R5.SP3.02"/>
+	<project name="TI-OpenLink/compat" path="code/addon/wlan/compat" revision="refs/tags/ol_R5.SP3.02" />
+	<project name="TI-OpenLink/compat-wireless" path="code/addon/wlan/compat-wireless" revision="refs/tags/ol_R5.SP3.02" />
+</manifest>
