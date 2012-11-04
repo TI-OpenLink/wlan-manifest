@@ -6,8 +6,8 @@
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
 	<default remote="wlan-github" />
 
-	<project name="TI-OpenLink/wlan-patches" path="infrastructure/patches/wlan-patches" revision="refs/tags/R5.xx_Build-131"/>
-	<project name="TI-OpenLink/kernel-omap" path="code/kernel" revision="refs/tags/R5.xx_Build-131"/>
-	<project name="TI-OpenLink/device-ti-blaze" path="code/mydroid/device/ti/blaze" revision="refs/tags/R5.xx_Build-131"/>
-	<project name="TI-OpenLink/device-ti-tablet" path="code/mydroid/device/ti/blaze_tablet" revision="refs/tags/R5.xx_Build-131"/>
+	<project name="TI-OpenLink/wlan-patches" path="infrastructure/patches/wlan-patches" revision="refs/tags/ol_R5.SP3.04"/>
+	<project name="TI-OpenLink/kernel-omap" path="code/kernel" revision="refs/tags/ol_R5.SP3.04"/>
+	<project name="TI-OpenLink/device-ti-blaze" path="code/mydroid/device/ti/blaze" revision="refs/tags/ol_R5.SP3.04"/>
+	<project name="TI-OpenLink/device-ti-tablet" path="code/mydroid/device/ti/blaze_tablet" revision="refs/tags/ol_R5.SP3.04"/>
 </manifest>
