@@ -2,8 +2,11 @@
 <remote name="gnss-gerrit-internal" fetch="ssh://gerrit02.dal.design.ti.com:29432/wcs/android/gnss" push="ssh://gerrit02.dal.design.ti.com:29432/wcs/android/gnss" />
 <remote name="bt-ext" fetch="ssh://gerrit.ext.ti.com:29430/wcs/android/blueti/" push="ssh://gerrit.ext.ti.com:29430/wcs/android/blueti/" />
 <remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
+<remote name="nlcp-gerrit-external" fetch="ssh://gerrit.ext.ti.com:29430/wcs/android/nlcp/" push="ssh://gerrit.ext.ti.com:29430/wcs/android/nlcp/" />
 
 <remote fetch="ssh://gerrit02.dal.design.ti.com:29432/wcs/android/nlcp/integration/" name="nlcp-gerrit-integration"/>
+
+	<project name="nlcp-patches" path="infrastructure/patches/nlcp-patches" remote="nlcp-gerrit-external" revision="4AJ.1.1"/>
 
 <!-- *** CONFLICT *** -->
 <integration-project name="device/ti/blaze" path="code/mydroid/device/ti/blaze" remote="nlcp-gerrit-integration" revision="b52c9534f0436989478006402f7ebd54f62ec7bb">
