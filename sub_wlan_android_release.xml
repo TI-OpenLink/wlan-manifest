@@ -4,11 +4,11 @@
 		<local-defaults include-by-default="true"/>
 	</nlcp>
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
-	<default remote="wlan-github" revision="refs/tags/ol_R5.SP2.04" />
+	<default remote="wlan-github" />
 
-	<project name="TI-OpenLink/wl12xx_ko_installer" path="code/mydroid/external/wlcore_ko_installer" />
-	<project name="TI-OpenLink/wl12xx_target_scripts" path="code/mydroid/external/wlcore_target_scripts" />
-	<project name="TI-OpenLink/hostap" path="code/mydroid/external/wpa_supplicant_8" />
-	<project name="TI-OpenLink/ti-utils" path="code/mydroid/external/ti-utils" />
-	<project name="TI-OpenLink/iw" path="code/mydroid/external/iw" />
+	<project name="TI-OpenLink/wl12xx_ko_installer" path="code/mydroid/external/wlcore_ko_installer" revision="refs/tags/R5.xx_Build-138"/>
+	<project name="TI-OpenLink/wl12xx_target_scripts" path="code/mydroid/external/wlcore_target_scripts" revision="refs/tags/R5.xx_Build-138"/>
+	<project name="TI-OpenLink/hostap" path="code/mydroid/external/wpa_supplicant_8_ti" revision="refs/tags/R5.xx_Build-138"/>
+	<project name="TI-OpenLink/ti-utils" path="code/mydroid/external/ti-utils" revision="refs/tags/R5.xx_Build-138"/>
+	<project name="TI-OpenLink/iw" path="code/mydroid/external/iw" revision="refs/tags/R5.xx_Build-138"/>
 </manifest>
