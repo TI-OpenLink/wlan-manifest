@@ -6,5 +6,5 @@
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
 	<default remote="wlan-github" />
 
-	<project name="TI-OpenLink/wlan-patches-ibi" path="infrastructure/patches/wlan-patches-ibi" revision="refs/tags/R8.xx_Build-139"/>
+	<project name="TI-OpenLink/wlan-patches-ibi" path="infrastructure/patches/wlan-patches-ibi" revision="refs/tags/ol_r8.a5.04"/>
 </manifest>
