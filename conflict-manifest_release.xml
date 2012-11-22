@@ -10,7 +10,7 @@
 	<integration-project name="device/ti/blaze" path="code/mydroid/device/ti/blaze" remote="nlcp-gerrit-integration" revision="refs/tags/NLCP-R8-A4-RC0">
 		<merge-sources>
 			<project name="device/ti/blaze" remote="bt-ext" revision="refs/tags/blueti-nlcp-1.2.3.7"/>
-			<project name="TI-OpenLink/device-ti-blaze" remote="wlan-github" revision="refs/tags/R8.xx_Build-85"/>
+			<project name="TI-OpenLink/device-ti-blaze" remote="wlan-github" revision="refs/tags/R8.xx_Build-153"/>
 			<project name="device/ti/blaze" remote="gnss-gerrit-internal" revision="refs/tags/REL_NL8.5.0.5"/>
 			<project name="device/ti/blaze" remote="fm-gerrit-external" revision="refs/tags/fm_1.0.5"/>
 			<project name="device/ti/blaze" remote="nfc-gerrit-external" revision="refs/tags/ti-nfc_jb-4.1.1_r1.65"/>
@@ -21,7 +21,7 @@
 	<integration-project name="kernel/omap" path="code/kernel" remote="nlcp-gerrit-integration" revision="refs/tags/NLCP-R8-A4-RC0">
 		<merge-sources>
 			<project name="kernel/omap" remote="bt-ext" revision="refs/tags/blueti-nlcp-1.2.3.7"/>
-			<project name="TI-OpenLink/kernel-omap" remote="wlan-github" revision="refs/tags/R8.xx_Build-85"/>
+			<project name="TI-OpenLink/kernel-omap" remote="wlan-github" revision="refs/tags/R8.xx_Build-153"/>
 			<project name="kernel/omap" remote="fm-gerrit-external" revision="refs/tags/fm_1.0.5"/>
 			<project name="kernel/omap" remote="nfc-gerrit-external" revision="refs/tags/ti-nfc_jb-4.1.1_r1.65"/>
 		</merge-sources>
@@ -31,7 +31,7 @@
 	<integration-project name="device/ti/blaze_tablet" path="code/mydroid/device/ti/blaze_tablet" remote="nlcp-gerrit-integration" revision="refs/tags/NLCP-R8-A4-RC0">
 		<merge-sources>
 			<project name="device/ti/blaze_tablet" remote="bt-ext" revision="refs/tags/blueti-nlcp-1.2.3.7"/>
-			<project name="TI-OpenLink/device-ti-tablet" remote="wlan-github" revision="refs/tags/R8.xx_Build-85"/>
+			<project name="TI-OpenLink/device-ti-tablet" remote="wlan-github" revision="refs/tags/R8.xx_Build-153"/>
 			<project name="device/ti/blaze_tablet" remote="nfc-gerrit-external" revision="refs/tags/ti-nfc_jb-4.1.1_r1.65"/>
 		</merge-sources>
 	</integration-project>
