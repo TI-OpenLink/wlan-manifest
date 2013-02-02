@@ -4,9 +4,9 @@
 		<local-defaults include-by-default="true"/>
 	</nlcp>
 	<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
-	<default remote="wlan-github" revision="refs/tags/ol_R5.SP2.04" />
+	<default remote="wlan-github" />
 
-	<project name="TI-OpenLink/wl12xx" path="code/addon/wlan/wl12xx" />
-	<project name="TI-OpenLink/compat" path="code/addon/wlan/compat" />
-	<project name="TI-OpenLink/compat-wireless" path="code/addon/wlan/compat-wireless" />
+	<project name="TI-OpenLink/wl12xx" path="code/addon/wlan/wl12xx" revision="refs/tags/R5.xx_Build-213"/>
+	<project name="TI-OpenLink/compat" path="code/addon/wlan/compat" revision="refs/tags/R5.xx_Build-213" />
+	<project name="TI-OpenLink/compat-wireless" path="code/addon/wlan/compat-wireless" revision="refs/tags/R5.xx_Build-213" />
 </manifest>
