@@ -1,0 +1,35 @@
+<manifest>
+<remote name="gnss-gerrit-internal" fetch="ssh://gerrit02.dal.design.ti.com:29432/wcs/android/gnss" push="ssh://gerrit02.dal.design.ti.com:29432/wcs/android/gnss" />
+<remote name="bt-ext" fetch="ssh://gerrit.ext.ti.com:29430/wcs/android/blueti/" push="ssh://gerrit.ext.ti.com:29430/wcs/android/blueti/" />
+<remote name="wlan-github" fetch="git://github.com/" push="ssh://github.com/" />
+<remote name="nlcp-gerrit-external" fetch="ssh://gerrit.ext.ti.com:29430/wcs/android/nlcp/" push="ssh://gerrit.ext.ti.com:29430/wcs/android/nlcp/" />
+
+<remote fetch="ssh://gerrit02.dal.design.ti.com:29432/wcs/android/nlcp/integration/" name="nlcp-gerrit-integration"/>
+
+	<project name="nlcp-patches" path="infrastructure/patches/nlcp-patches" remote="nlcp-gerrit-external" revision="4AJ.1.1"/>
+
+<!-- *** CONFLICT *** -->
+<integration-project name="device/ti/blaze" path="code/mydroid/device/ti/blaze" remote="nlcp-gerrit-integration" revision="b52c9534f0436989478006402f7ebd54f62ec7bb">
+	<merge-sources>
+		<project name="device/ti/blaze" remote="bt-ext" revision="refs/tags/blueti-nlcp-1.2.3.7"/>
+		<project name="device/ti/blaze" remote="gnss-gerrit-internal" revision="refs/tags/Navilink_MCP2.6_BL2.0.13"/>
+		<project name="TI-OpenLink/device-ti-blaze" remote="wlan-github" revision="refs/tags/R5.xx_Build-241"/>
+	</merge-sources>
+</integration-project>
+
+<!-- *** CONFLICT *** -->
+<integration-project name="kernel/omap" path="code/kernel" remote="nlcp-gerrit-integration" revision="fe92aa852ddbe98b9997eec94de6f14b0e725c4f">
+	<merge-sources>
+		<project name="kernel/omap" remote="bt-ext" revision="refs/tags/blueti-nlcp-1.2.3.7"/>
+		<project name="TI-OpenLink/kernel-omap" remote="wlan-github" revision="refs/tags/R5.xx_Build-241"/>
+	</merge-sources>
+</integration-project>
+
+<!-- *** CONFLICT *** -->
+<integration-project name="device/ti/blaze_tablet" path="code/mydroid/device/ti/blaze_tablet" remote="nlcp-gerrit-integration" revision="34a9d25a3dcfb177d350a0fed8af528b933a9334">
+	<merge-sources>
+		<project name="device/ti/blaze_tablet" remote="bt-ext" revision="refs/tags/blueti-nlcp-1.2.3.7"/>
+		<project name="TI-OpenLink/device-ti-tablet" remote="wlan-github" revision="refs/tags/R5.xx_Build-241"/>
+	</merge-sources>
+</integration-project>
+</manifest>
